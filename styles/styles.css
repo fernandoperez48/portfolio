@@ -6,14 +6,14 @@
 body {
   font-family: "Roboto", sans-serif;
   width: 100%;
-  background: rgb(0, 36, 27);
+  background: rgb(189, 204, 200);
   background: linear-gradient(
     90deg,
     rgba(0, 36, 27, 0.9248949579831933) 1%,
     rgba(126, 68, 5, 0.9725140056022409) 100%,
     rgba(255, 93, 0, 1) 100%
   );
-  color: bisque;
+  color: rgb(108, 120, 159);
 }
 .articleAcercaDeMi {
   display: flex;
@@ -60,7 +60,7 @@ li {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(255, 239, 239);
   font-size: larger;
   font-family: "Concert One", cursive;
 
@@ -68,7 +68,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: rgba(0,0,0,0);
+  background: rgba(78, 67, 67, 0);
   
   transition: all 1s ease;
   position: relative;
@@ -81,7 +81,7 @@ a:hover{
 h1,
 h2,
 h3 {
-  color: bisque;
+  color: rgb(182, 113, 29);
   padding: 1rem;
 }
 
@@ -89,6 +89,7 @@ h1 {
   text-align: left;
   font-size: 4rem;
   font-family: "Anton", sans-serif;
+  
 }
 
 p,a{
@@ -99,6 +100,7 @@ p,a{
 
 section {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #f8f2f2;
 }
 article {
   padding-bottom: 2rem;
@@ -107,6 +109,7 @@ article {
 
 footer {
   margin: 2rem;
+  color: #f8f2f2;
 }
 
 button {
@@ -170,3 +173,13 @@ textarea {
   
 }
 
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 20;
+  left: 0;
+  z-index: -1;
+  
+}

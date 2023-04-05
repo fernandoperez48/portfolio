@@ -24,6 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script
       src="https://kit.fontawesome.com/ba9a4f2060.js"
       crossorigin="anonymous"
@@ -37,23 +38,24 @@
         <i class="fa-solid fa-laptop-code">fstack</i>
       </div>
       <ul>
-        <li><a href="#acercaDeMI">Acerca de mi</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-    <hr />
-    <header>
-      <div class="hero">
-        <h1>creative pages for your business</h1>
-      </div>
-    </header>
-    <section>
-      <h2 id="acercaDeMi">Acerca de mi</h2>
+        <li><a><button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Acerca de Mi</a></button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            
+            <div class="offcanvas-header">
+     
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <h2 id="acercaDeMi">Acerca de mi</h2>
       <article class="articleAcercaDeMi">
+       
+          
+          
+        
         <div class="imagenFer">
           <img src="./images/ImagenFer-removebg-preview.png" alt="" />
         </div>
+       
 
         <p class="textAcercaDeMi">
           -Soy estudiante de la carrera de Analista de Sistemas, cursando el
@@ -69,9 +71,30 @@
           ayuda a concentrarme en lo importante haciendo que las soluciones sean
           lo mas sencillas.
         </p>
+        
       </article>
+            </div>
+          </div>
+        </li>
+        
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <header>
+      <div class="hero">
+        <h1>creative pages for your business</h1>
+      </div>
+    </header>
+    <section>
+      <video onloadedmetadata="this.muted=true" autoplay loop>
+        <source src="/video/compuBack.mp4">
+      </video>
+
     </section>
     <hr />
+   
     <section>
       <h2 id="portfolio">Portfolio</h2>
       <article>
@@ -79,6 +102,7 @@
         <p>Descripcion del proyecto</p>
         <a href="url">Enlace del proyecto</a>
       </article>
+      
       <article>
         <h3>Titulo del proyecto</h3>
         <p>Descripcion del proyecto</p>
@@ -114,5 +138,6 @@
         <button type="submit" name="enviar">Enviar</button>
       </form>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
