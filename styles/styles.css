@@ -54,6 +54,7 @@ ul {
   align-content: center;
 }
 
+
 li {
   display: flex;
   flex-wrap: wrap;
@@ -62,14 +63,12 @@ li {
 a {
   text-decoration: none;
   color: rgb(255, 239, 239);
-  font-size: larger;
   font-family: "Concert One", cursive;
   color: #5b94ab !important;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 200px;
   padding: 0.5em 1.2em;
   background: rgba(78, 67, 67, 0);
-  
   transition: all 1s ease;
   position: relative;
   border-radius: 5px;
@@ -94,7 +93,7 @@ h1 {
 
 p,a{
   padding:1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -115,9 +114,10 @@ footer {
 button {
   
 
-  color: #318aac !important;
+  
   font-size: 20px;
   font-weight: 500;
+  color:#5b94ab !important;
   padding: 0.5em 1.2em;
   background: rgba(0,0,0,0);
   border: 2px solid;
@@ -150,9 +150,10 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: 70%;
   border-radius: 5px;
   padding: 1rem;
+  margin: 1rem;
 }
 
 

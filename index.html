@@ -38,20 +38,32 @@
         <i class="fa-solid fa-laptop-code">fstack</i>
       </div>
       <ul>
-        <li><a><button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Acerca de Mi</a></button></li>
+        <li>
+          <div class="acercaDeMi">
+            <a>
+              <button  class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions">
+                Acerca de mi
+              </button>
+            </a>
+
+          </div>
+          
+        </li>
+        
+        
           <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-            
+          
             <div class="offcanvas-header">
      
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+
+              </button>
             </div>
             <div class="offcanvas-body">
               <h2 id="acercaDeMi">Acerca de mi</h2>
-      <article class="articleAcercaDeMi">
-       
-          
-          
-        
+
+      <article class="articleAcercaDeMi">      
         <div class="imagenFer">
           <img src="./images/ImagenFer-removebg-preview.png" alt="" />
         </div>
@@ -75,7 +87,7 @@
       </article>
             </div>
           </div>
-        </li>
+        
         
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contacto">Contacto</a></li>
@@ -140,7 +152,7 @@
           required
         /><br /><br />
         <label for="message">Mensaje:</label><br /><br />
-        <textarea name="message" cols="40" rows="10" id="" required></textarea
+        <textarea name="message" cols="12" rows="10" id="" required></textarea
         ><br /><br />
         <button type="submit" name="enviar">Enviar</button>
       </form>
